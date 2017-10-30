@@ -1,0 +1,27 @@
+{
+  "name": "zabornyi/chain-of-responsibilities-test",
+  "description": "Some test Abstract Factory",
+  "license": "proprietary",
+  "authors": [
+    {
+      "name": "Alexander Zabornyi",
+      "email": "post0778@gmail.com"
+    }
+  ],
+  "require": {
+    "php": "^7.0"
+  },
+  "require-dev": {
+    "phpunit/phpunit": "^6.4"
+  },
+  "autoload": {
+    "psr-4": {
+      "AlexanderZabornyi\\ChainOfResponsibilitiesTest\\": "src"
+    }
+  },
+  "autoload-dev": {
+    "psr-4": {
+      "AlexanderZabornyi\\ChainOfResponsibilitiesTest\\Tests\\": "tests"
+    }
+  }
+}
